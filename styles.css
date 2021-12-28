@@ -1,0 +1,37 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section{
+    text-align: center;
+    width: 500px;
+}
+h1{
+    color:#519259;
+}
+
+h1::after{
+    content:" 🌱";
+    
+}
+h1:hover{
+    color:#064635;
+}
+h2{
+    color:#064635 ;
+}
+ol{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 6;
+}
+.day-name{
+    background-color:#F0BB62 ;
+    font-weight: bold;
+}
